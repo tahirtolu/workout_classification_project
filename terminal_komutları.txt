@@ -1,0 +1,25 @@
+ python src/util/extract_frames.py --video_root data/train/videos --image_root data/train/images --target_fps 6 --max_frames 400 --overwrite
+--------------------------------------------------------------
+
+train için 
+
+# Her iki model, varsayılan değerlerle
+python src/train.py --model_type both
+
+# Sadece görsel model
+python src/train.py --model_type image
+
+# Sadece video model
+python src/train.py --model_type sequence
+------------------------------------------------------
+evaluate
+# Her iki modeli değerlendir
+
+python src/evaluate.py --model_type both
+
+# Sadece görsel modeli değerlendir
+python src/evaluate.py --model_type image
+
+# Sadece video modeli değerlendir
+python src/evaluate.py --model_type sequence
+------------------------------------------------------------

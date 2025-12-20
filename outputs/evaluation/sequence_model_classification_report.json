@@ -1,0 +1,147 @@
+{
+  "barbell biceps curl": {
+    "precision": 0.9459619952494062,
+    "recall": 0.9533213644524237,
+    "f1-score": 0.9496274217585693,
+    "support": 1671.0
+  },
+  "bench press": {
+    "precision": 0.9527665317139001,
+    "recall": 0.9717825189263593,
+    "f1-score": 0.9621805792163544,
+    "support": 1453.0
+  },
+  "chest fly machine": {
+    "precision": 0.991580310880829,
+    "recall": 0.9702154626108999,
+    "f1-score": 0.9807815502882767,
+    "support": 1578.0
+  },
+  "deadlift": {
+    "precision": 0.9692242833052277,
+    "recall": 0.9956691208315288,
+    "f1-score": 0.9822687459944456,
+    "support": 2309.0
+  },
+  "decline bench press": {
+    "precision": 0.9994855967078189,
+    "recall": 1.0,
+    "f1-score": 0.9997427321842037,
+    "support": 1943.0
+  },
+  "hammer curl": {
+    "precision": 0.8688976377952756,
+    "recall": 0.97439293598234,
+    "f1-score": 0.9186264308012487,
+    "support": 2265.0
+  },
+  "hip thrust": {
+    "precision": 0.9880050505050505,
+    "recall": 0.7350868952559887,
+    "f1-score": 0.8429841098841907,
+    "support": 2129.0
+  },
+  "incline bench press": {
+    "precision": 0.9807692307692307,
+    "recall": 0.9985315712187959,
+    "f1-score": 0.9895707009459132,
+    "support": 2043.0
+  },
+  "lat pulldown": {
+    "precision": 0.994140625,
+    "recall": 0.9993455497382199,
+    "f1-score": 0.9967362924281985,
+    "support": 1528.0
+  },
+  "lateral raise": {
+    "precision": 0.9502824858757062,
+    "recall": 0.9059245960502693,
+    "f1-score": 0.9275735294117647,
+    "support": 2785.0
+  },
+  "leg extension": {
+    "precision": 0.810190587320109,
+    "recall": 1.0,
+    "f1-score": 0.8951439621830684,
+    "support": 2083.0
+  },
+  "leg raises": {
+    "precision": 0.978247358607831,
+    "recall": 0.9447779111644657,
+    "f1-score": 0.9612213740458015,
+    "support": 1666.0
+  },
+  "plank": {
+    "precision": 1.0,
+    "recall": 0.5910509885535901,
+    "f1-score": 0.7429692609548725,
+    "support": 1922.0
+  },
+  "pull Up": {
+    "precision": 0.965389369592089,
+    "recall": 0.9927966101694915,
+    "f1-score": 0.9789011907248798,
+    "support": 2360.0
+  },
+  "push-up": {
+    "precision": 0.9674029594681536,
+    "recall": 1.0,
+    "f1-score": 0.9834314366688467,
+    "support": 4511.0
+  },
+  "romanian deadlift": {
+    "precision": 0.9331550802139037,
+    "recall": 0.9741800418702024,
+    "f1-score": 0.9532263571184705,
+    "support": 1433.0
+  },
+  "russian twist": {
+    "precision": 0.9012345679012346,
+    "recall": 0.9276243093922651,
+    "f1-score": 0.9142390416553225,
+    "support": 1810.0
+  },
+  "shoulder press": {
+    "precision": 0.9966749792186201,
+    "recall": 1.0,
+    "f1-score": 0.9983347210657786,
+    "support": 2398.0
+  },
+  "squat": {
+    "precision": 0.9897769516728625,
+    "recall": 0.9797608095676172,
+    "f1-score": 0.9847434119278778,
+    "support": 3261.0
+  },
+  "t bar row": {
+    "precision": 0.9388458225667528,
+    "recall": 0.983754512635379,
+    "f1-score": 0.9607756721022476,
+    "support": 2216.0
+  },
+  "tricep Pushdown": {
+    "precision": 0.974961676034747,
+    "recall": 0.9901401141670991,
+    "f1-score": 0.9824922760041195,
+    "support": 1927.0
+  },
+  "tricep dips": {
+    "precision": 0.8813668600902643,
+    "recall": 0.9395189003436426,
+    "f1-score": 0.9095143047238855,
+    "support": 2910.0
+  },
+  "accuracy": 0.9497105869172838,
+  "macro avg": {
+    "precision": 0.9535618163858642,
+    "recall": 0.9467215551332082,
+    "f1-score": 0.9461402319131061,
+    "support": 48201.0
+  },
+  "weighted avg": {
+    "precision": 0.9531408739768754,
+    "recall": 0.9497105869172838,
+    "f1-score": 0.9477390465393664,
+    "support": 48201.0
+  }
+}
