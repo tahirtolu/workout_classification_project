@@ -36,3 +36,7 @@ python src/util/visualize_training.py --model_type sequence
 
 # Streamlit arayüzü çalıştırmak için
 streamlit run main.py --server.port 8503
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+.\venv\Scripts\Activate.ps1
