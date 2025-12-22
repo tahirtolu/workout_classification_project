@@ -32,3 +32,11 @@ python src/util/visualize_training.py --model_type image
 
 # Sadece sequence model için
 python src/util/visualize_training.py --model_type sequence
+-------------------------------------------------------------
+backend-frontend komutları
+
+
+uvicorn backend.backend:app --reload --host 0.0.0.0 --port 8000
+
+streamlit run frontend/frontend.py --server.port 8503
+
