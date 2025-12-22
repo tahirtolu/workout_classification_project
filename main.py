@@ -46,7 +46,6 @@ def start_backend():
     # Backend'i arka planda başlat
     process = subprocess.Popen(cmd, cwd=project_root) # Kök dizinden çalıştır
     st.session_state["backend_process"] = process
-    st.info(f"Backend {BACKEND_URL} adresinde başlatiliyor...")
     time.sleep(5) # Backend'in başlaması için biraz bekle
 
 # Backend FastAPI uygulaması
@@ -172,7 +171,6 @@ async def read_root_backend():
 if "backend_process" not in st.session_state:
     start_backend()
 
-st.write(f"Backend Durumu: {st.session_state.get('backend_status', 'Başlatılmadı.')}")
 
 st.subheader("Video Yükle")
 uploaded_file = st.file_uploader("Bir egzersiz videosu yükleyin (.mp4, .mov, .avi)", type=["mp4", "mov", "avi"])
