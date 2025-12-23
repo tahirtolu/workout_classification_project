@@ -182,3 +182,4 @@ cython_debug/
 /data
 *.zip
 .idea/workspace.xml
+/.idea
